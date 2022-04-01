@@ -47,7 +47,7 @@ if __name__ == '__main__':
                 link = url_base + container.find_all('a', class_="item-link")[0].get('href')
                 sub_items.append([price, room, space, name, link])
             
-            with open('housing-barcelona.csv', 'a', newline='') as f:
+            with open('./csv/housing-barcelona.csv', 'a', newline='') as f:
                 write = csv.writer(f)
                 for sub_item in sub_items:
                     write.writerow(sub_item)
