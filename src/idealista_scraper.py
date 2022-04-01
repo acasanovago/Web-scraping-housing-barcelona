@@ -29,6 +29,11 @@ if __name__ == '__main__':
     # items = soup.find_all('div', class_="item-info-container")
     items = soup.find_all('ul', id="sublocations")
 
+    with open('./csv/housing-barcelona.csv', 'w', newline='') as f:
+        write = csv.writer(f)
+        cols = ['price', 'room', 'space', 'name', 'link']
+        write.writerow(cols)
+
     for item in items:
         links = item.find_all('a')
         for link in links:
