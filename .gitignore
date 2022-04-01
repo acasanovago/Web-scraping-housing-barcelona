@@ -1,0 +1,6 @@
+.DS_Store
+.idea/
+geckodriver.log
+src/items.py
+src/proxies.py
+src/scraper.py
