@@ -76,13 +76,13 @@ def get_data_in_pages(soup, items):
     return items
 
 
-def to_csv(path, sub_items):
+def to_csv(path, items):
     with open(path, 'w', newline='') as f:
         write = csv.writer(f)
         cols = ['price', 'room', 'space', 'name', 'link', 'city', 'area', 'subarea', 'page']
         write.writerow(cols)
-        for sub_item in sub_items:
-            write.writerow(sub_item)
+        for item in items:
+            write.writerow(item)
 
 if __name__ == '__main__':
     driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
