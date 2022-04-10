@@ -5,11 +5,11 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from webdriver_manager.firefox import GeckoDriverManager
 
-URL_BASE = "https://www.idealista.com"
-MAX_PAGES = 5
-SLEEP = 1
-PATH = './csv/housing-barcelona.csv'
-WAIT_CAPTCHA = True
+URL_BASE = "https://www.idealista.com" # cambiar si se utiliza un proxy
+MAX_PAGES = 5 # páginas por zona que vamos a analizar, mínimo 1 máximo 6
+SLEEP = 1 # tiempo de espera entre peticiones en segundos
+PATH = './csv/housing-barcelona.csv' # path donde guardaremos el csv resultante
+WAIT_CAPTCHA = True # configuración si queremos esperar a resolver el Captcha inicial o no
 
 def parse_url(url, driver, captcha = False):
     try:
