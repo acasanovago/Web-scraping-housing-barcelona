@@ -79,7 +79,7 @@ comportamiento no es el esperado.
 Los pasos de ejecución son los siguientes:
 
 ```bash
-$ python idealista_scraper.py
+$ python ./src/idealista_scraper.py
 ```
 * Verificamos en el navegador de Selenium si ha saltado el Captcha.
   * En caso afirmativo, solucionamos el Captcha y pulsamos ENTER.
