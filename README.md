@@ -111,3 +111,11 @@ Y, inicialmente, se pasan en la variable locations la lista de barrios que quere
 locations = ["/venta-viviendas/barcelona/nou-barris/mapa", "/venta-viviendas/barcelona/sant-andreu/mapa", "/venta-viviendas/barcelona/sant-marti/mapa"]
 ```
 En nuestro caso Nous Barris, Sant Andreu i Sant Martí; el este de Barcelona.
+
+## DOI de Zenodo del dataset generado
+
+Dataset publicado en Zenodo: https://zenodo.org/record/6436017#.YlMK2tNBzIV
+
+El DOI es el siguiente: https://doi.org/10.5281/zenodo.6436017
+
+Aunque también se encuentra en el repositorio del apartado anterior, en csv/housing-barcelona.csv
