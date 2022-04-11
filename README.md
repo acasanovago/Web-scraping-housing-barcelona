@@ -118,4 +118,4 @@ Dataset publicado en Zenodo: https://zenodo.org/record/6436017#.YlMK2tNBzIV
 
 El DOI es el siguiente: https://doi.org/10.5281/zenodo.6436017
 
-Aunque también se encuentra en el repositorio del apartado anterior, en csv/housing-barcelona.csv
+Aunque también se encuentra en este mismo repositorio, en csv/housing-barcelona.csv
